@@ -1,3 +1,5 @@
 ### Ninetails
 
-A place for me to add all my neovim editor preferences
+Just an extended options repository for my neovim. Nothing special.
+
+This repo contains nine or so main things I want to set for my neovim conig.

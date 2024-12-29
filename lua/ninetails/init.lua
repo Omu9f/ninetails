@@ -4,11 +4,14 @@ local ninetails = {}
 ninetails.setup = function(opts)
   opts = opts or {}
 
-  -- Initialize remaps
-  require("ninetails.remap").setup()
-  require("ninetails.longmap").setup()
+  -- Initialize the ones that need setup
+  require("ninetails.options").setup()
   require("ninetails.folding").setup()
   require("ninetails.go_opts").setup()
+  require("ninetails.lua_opts").setup()
+  require("ninetails.harpoon").setup()
+
+  -- initialize the plugins
 
   -- Add other optional configurations based on `opts` if needed
   -- if opts.enable_feature_x then
